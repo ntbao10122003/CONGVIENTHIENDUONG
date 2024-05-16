@@ -1308,7 +1308,7 @@ section.list-post {
     padding-top: 10px;
 }
 
-.btn-buy-post span {
+.btn-buy-post a {
     display: inline-block;
     background: #9B5015;
     text-shadow: none !important;
@@ -1317,7 +1317,7 @@ section.list-post {
     border-radius: 7px;
     transition: 0.2s;
     padding: 10px 30px 10px;
-    color: #fff;
+    color: #fff !important;
 }
 
 .btn-buy-post {
@@ -1588,4 +1588,561 @@ a.btn.btn-xs span {
     font-size: 22px;
     text-align: center;
     text-transform: none;
+}
+
+.title-about-desc p {
+    padding-bottom: 0px;
+}
+
+.title-about-desc {
+    font-weight: 500;
+    font-size: 33px;
+    font-family: 'Montagu Slab', sans-serif !important;
+    color: #9B5015;
+    text-transform: none;
+    text-align: center;
+}
+
+.title-about-desc span {
+    font-weight: 800;
+}
+
+.desc-abouts-pages {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.desc-abouts-pages span {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.desc-abouts-pages p {
+    font-size: 14px;
+}
+
+.box-imgaes-abouts-pages img {
+    border: 15px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.25));
+}
+
+.section-about-main .row {
+    align-items: center;
+}
+
+.box-content-main-desc-right a {
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.box-content-main-desc-right ul li {
+    font-size: 15px;
+}
+
+
+.box-content-main-desc-right .btn-buy-post {
+    color: #fff;
+    padding-top: 15px;
+}
+.box-content-main-desc-right>span {
+    font-weight: 700;
+}
+
+section.why-chon {
+    padding-top: 5rem;
+}
+
+.box-lisy-why>p {
+    width: 60px;
+    display: block;
+    height: 60px;
+    text-align: center;
+    background: #9B5015;
+    border-radius: 20em;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 16px;
+    margin: auto;
+    transform: translateY(-50%);
+    font-size: 19px;
+}
+
+.list-content-whys span {
+    font-weight: bold;
+    line-height: 1.3;
+    color: #9B5015;
+}
+
+.box-lisy-why {
+    text-align: center;
+    border: 1px solid rgba(24, 25, 69, 0.1);
+    transition: 0.3s;
+    margin-bottom: 40px;
+}
+section.why-chon .title-about-desc {
+    padding-bottom: 5rem;
+}
+
+section.abouts-images {
+    background: linear-gradient(180deg, #836A3D 0%, #D3BC91 100%);
+    padding: 5rem 0px;
+}
+
+.title-abouts-images h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.title-abouts-images {
+    padding-bottom: 35px;
+}
+
+.item-img-reletive {
+    height: 400px;
+}
+
+.boxp-item-abouts {
+    padding-bottom: 10px;
+}
+
+.item-img-reletive img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.item-img-reletive-keyper {
+    padding: 10px;
+}
+
+.item-img-reletive-keyper img {
+    height: 115px;
+    width: 100%;
+    object-fit: cover;
+}
+.title-box-anphatvinh p {
+    padding-bottom: 0px;
+    font-weight: 500;
+    font-size: 33px;
+    font-family: 'Montagu Slab', sans-serif !important;
+    color: #9B5015;
+    text-transform: none;
+    text-align: left;
+}
+
+.title-box-anphatvinh p a {
+    color: #9B5015;
+    font-weight: 700;
+}
+
+section.box-aphatvinh {
+    padding: 5rem 0px;
+}
+
+.title-box-anphatvinh {
+    padding-bottom: 35px;
+}
+
+.img-post-list-about img {
+    border-radius: 40px 0 40px 0;
+}
+
+.clm.cake-order p {
+    font-size: 15px;
+    text-align: justify;
+}
+.row.odder-aphatvinh:nth-child(2n).clm.cake-order2 {
+    order: 1;
+}
+
+.row.odder-aphatvinh:nth-child(2n) .clm.cake-order {
+    order: 2;
+}
+
+.row.odder-aphatvinh {
+    padding-bottom: 30px;
+}
+section.sumenh {
+    padding: 60px 0;
+}
+
+section.sumenh {
+    background: url(https://congvienthienduong.com.vn/public/upload/Rectangle%205820.png);
+}
+
+.title-hedding-sumenh {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.content-sumenh p {
+    text-align: center;
+    line-height: 1.6;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section.cotloi {
+    padding: 5rem 0px;
+}
+
+section.cotloi {}
+
+.tile-cotloi h2 {
+    font-weight: 500;
+    font-size: 33px;
+    font-family: 'Montagu Slab', sans-serif !important;
+    color: #9B5015;
+    text-transform: none;
+    text-align: center;
+}
+
+.tile-cotloi {
+    padding-bottom: 30px;
+}
+
+.list-gitri {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #9B5015;
+    margin-bottom: 30px;
+}
+
+.giatri-left {
+    width: 30%;
+    background: url(https://congvienthienduong.com.vn/public/upload/Rectangle%205826.png);
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+}
+
+.giatri-right {
+    width: 70%;
+    /* padding: 5rem; */
+    padding-left: 5rem;
+}
+
+.content-gia-trileft p {
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 0px;
+}
+
+.model-content-right-giatri p {
+    color: #9B5015;
+}
+.text-desc-deatil-post img {
+    height: 100%;
+    width: 100%;
+}
+section.bv-lienquan .item-list-post {
+    padding-bottom: 30px;
+}
+section.model-title-list-products {
+    padding: 4rem 0px;
+}
+
+.title-list-products {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.title-list-products h2 {
+    font-size: 30px;
+    color: #9B5015;
+    text-transform: none;
+}
+
+.content-title-list-products p {
+    text-align: center;
+    font-size: 15px;
+}
+.title-list-products span {
+    font-size: 26px;
+    font-weight: 400;
+    color: #9B5015;
+}
+.img-box-slick-keyper-product img {
+    border: 15px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 7px rgba(0, 0, 0, 0.25));
+    height: 400px;
+    object-fit: cover;
+}
+
+.img-box-slick-keyper-product {
+    padding: 20px;
+}
+.list-btn-submit-products {
+    display: flex;
+}
+
+.list-btn-submit-products a {
+    background: #9B5015;
+    text-shadow: none !important;
+    font-weight: 400;
+    border-radius: 7px;
+    transition: 0.2s;
+    padding: 5px 36px 5px;
+    margin-right: 15px;
+    color: #fff;
+}
+
+.list-btn-submit-products a:hover {
+    background: #ba7c4b;
+}
+
+.clm.products-lepre .title-list-products {
+    text-align: left;
+}
+
+.list-slick-main-products .row {
+    align-items: center;
+}
+.list-slick-main-products:nth-child(2n) .clm.products-lepre-order {
+    order: 2;
+}
+.list-slick-main-products{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ebe6e6;
+}
+.img-slick-uu-dai img {
+    width: 100%;
+    background: #EBDCD0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.title-uudai-kiper {
+    padding-left: 15px;
+}
+
+.title-uudai-kiper h2 {
+    font-size: 15px;
+    line-height: 1.3;
+    margin-bottom: 5px;
+    color: #9B5015;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.title-uudai-kiper p {
+    line-height: 1.4;
+    font-size: 14px;
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.date-uudai-keper p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-style: italic !important;
+    color: #7e7e7e;
+}
+.borde-products-listpane {
+    padding: 10px;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+}
+.item-uu-slicker {
+    padding: 5px;
+}
+.item-uu-slicker {
+    padding: 5px;
+}
+
+section.ss-uudai .ctnr {
+    padding: 10px;
+    border: 1px solid #9B5015;
+    border-radius: 20px;
+}
+
+.btn-xem-all {
+    text-align: center;
+}
+
+.btn-xem-all a {
+    background: #9B5015;
+    text-shadow: none !important;
+    font-weight: 400;
+    border-radius: 7px;
+    transition: 0.2s;
+    padding: 9px 36px 9px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.btn-xem-all a:hover {
+    background: #ad6730;
+}
+section.ss-uudai {
+    padding-bottom: 50px;
+}
+
+
+
+.box-slic-products {
+    position: relative;
+}
+
+.content-desp-sevity {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transform: translateY(-50%);
+    z-index: 99;
+}
+
+.item-slick-product-servity {
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 28px;
+    margin: 0;
+    height: 269px;
+    position: relative;
+    overflow: hidden;
+}
+
+.item-slick-product-servity img {
+    width: 100%;
+}
+
+section.box-sevire .clm.products-lepre.title-list-products h2 {
+    font-size: 25px !important;
+}
+
+.section.box-sevire .clm.products-lepre .title-list-products h2 {
+    font-size: 23px;
+}
+
+.clm.products-lepre {}
+
+section.box-sevire {
+    padding: 5rem 0px;
+}
+
+section.box-sevire .products-lepre h2 {
+    font-size: 22px;
+}
+
+section.box-sevire .products-lepre p {
+    font-size: 14px;
+}
+
+.list-service {
+    padding-top: 30px;
+}
+
+.item-slick-product-servity:before {
+    background: #00000045;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+}
+
+.content-desp-sevity p {
+    padding-bottom: 0px;
+}
+
+@media (max-width:768px){
+    .list-btn-submit-products a {
+        padding: 5px 30px 5px;
+    }
+    .title-list-products h2 {
+        font-size: 25px;
+    }
+
+    section.box-sevire {
+        padding: 2rem 0px;
+    }
+    
+    .list-service {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+}
+.img-tienich-ser img {
+    width: 100%;
+}
+
+.box-tien-ich-ser {
+    margin: 0;
+    height: 269px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 28px;
+}
+
+.content-tienich-ser {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 80%;
+    text-align: center;
+}
+
+.content-tienich-ser p {
+    color: #fff;
+    margin-bottom: 13px;
+    font-size: 20px;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.content-tienich-ser a {
+    background: #9B5015;
+    text-shadow: none !important;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 400;
+    border-radius: 7px;
+    transition: 0.2s;
+    padding: 5px 36px 9px;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+section.tienich-service .row .clm {
+    padding-bottom: 20px;
+}
+
+section.tienich-service .row .clm:nth-child(3) .box-tien-ich-ser {
+    border-radius: 28px 0;
+}
+
+section.tienich-service .row .clm:nth-child(2) .box-tien-ich-ser {
+    border-radius: 28px 0;
 }
