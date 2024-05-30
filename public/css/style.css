@@ -1,6 +1,7 @@
 /* header  */
 header {
     box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .header-desktop {
@@ -667,6 +668,7 @@ p.s-name {
     padding: 29px;
     padding-top: 0px;
     height: 100%;
+    overflow: hidden;
 }
 
 .deatl-icon-last {
@@ -859,6 +861,9 @@ section.about-us-wraper:before {
 
 section.products {
     padding: 3rem 0px;
+    background: url(https://demo12.largevendor.com/frontend/images/bg-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .tile-produts {
@@ -989,10 +994,15 @@ section.products {
 
 section.service {
     padding: 3rem 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 section.tiendo {
     padding: 3rem 0px;
+    background: url( https://demo18.largevendor.com/frontend/images/abstract.avif);
+    background-size: cover;
+    background-position: top;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .tiendo .desc-products {
@@ -1657,6 +1667,7 @@ a.btn.btn-xs span {
 
 section.why-chon {
     padding-top: 5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .box-lisy-why>p {
@@ -1685,6 +1696,7 @@ section.why-chon {
     border: 1px solid rgba(24, 25, 69, 0.1);
     transition: 0.3s;
     margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 section.why-chon .title-about-desc {
     padding-bottom: 5rem;
@@ -1716,6 +1728,7 @@ section.abouts-images {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .item-img-reletive-keyper {
@@ -1726,6 +1739,7 @@ section.abouts-images {
     height: 115px;
     width: 100%;
     object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .title-box-anphatvinh p {
     padding-bottom: 0px;
@@ -1744,6 +1758,7 @@ section.abouts-images {
 
 section.box-aphatvinh {
     padding: 5rem 0px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .title-box-anphatvinh {
@@ -1752,6 +1767,7 @@ section.box-aphatvinh {
 
 .img-post-list-about img {
     border-radius: 40px 0 40px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .clm.cake-order p {
@@ -1775,6 +1791,7 @@ section.sumenh {
 
 section.sumenh {
     background: url(https://congvienthienduong.com.vn/public/upload/Rectangle%205820.png);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .title-hedding-sumenh {
@@ -1814,8 +1831,9 @@ section.cotloi {}
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #9B5015;
+    /* border: 1px solid #9B5015; */
     margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .giatri-left {
@@ -1896,6 +1914,7 @@ section.model-title-list-products {
     padding: 5px 36px 5px;
     margin-right: 15px;
     color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .list-btn-submit-products a:hover {
@@ -1971,8 +1990,9 @@ section.model-title-list-products {
 
 section.ss-uudai .ctnr {
     padding: 10px;
-    border: 1px solid #9B5015;
+    /* border: 1px solid #9B5015; */
     border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .btn-xem-all {
@@ -1991,6 +2011,7 @@ section.ss-uudai .ctnr {
     margin-bottom: 20px;
     color: #fff;
     text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .btn-xem-all a:hover {
@@ -2074,7 +2095,93 @@ section.box-sevire .products-lepre p {
 .content-desp-sevity p {
     padding-bottom: 0px;
 }
+.item-img-abouts:before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+    display: none;
+}
 
+.item-img-abouts:hover:before {
+    animation: shine .75s;
+    display: block;
+}
+
+.item-img-tabs:hover img {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.item-img-tabs {
+    overflow: hidden;
+}
+
+.btn-next-tab:hover a {
+    background: none;
+    color: #000;
+    background: #cdcdcd;
+}
+
+.item-service-left:hover img {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.img-service-right:hover img {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.item-slider-tiendo a img {
+    filter: brightness(.7);
+}
+
+.item-slider-tiendo.clm.slick-slide.slick-current.slick-active.slick-center img {
+    filter: none;
+}
+
+.item-post-news-rights:hover .img-post-right-kerder img {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.img-post-right-kerder {
+    overflow: hidden;
+}
+
+.content-posted-right-loper:hover h2 {
+    color: #f00;
+}
+
+.box-img-baochiv:before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+    display: none;
+}
+
+.box-img-baochiv:hover:before {
+    animation: shine .75s;
+    display: block;
+}
 @media (max-width:768px){
     .list-btn-submit-products a {
         padding: 5px 30px 5px;
@@ -2145,4 +2252,36 @@ section.tienich-service .row .clm:nth-child(3) .box-tien-ich-ser {
 
 section.tienich-service .row .clm:nth-child(2) .box-tien-ich-ser {
     border-radius: 28px 0;
+}
+section.sodo {
+    padding-top: 4rem;
+}
+.item-img-reletive {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img-box-slick-keyper-product:hover img {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.img-box-slick-keyper-product {
+    overflow: hidden;
+}
+.item-slick-product-servity:hover img {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.img-tienich-ser:hover img {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.item-uu-slicker:hover img {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.item-uu-slicker .img-slick-uu-dai {
+    overflow: hidden;
 }
